@@ -59,7 +59,8 @@ body {
   
   aside {
     background-color: #000080;
-    max-height: 850px;
+    min-height: 650px;
+    height: auto;
     display: grid;
     border-radius: 25px;
     justify-content: center;
@@ -68,8 +69,6 @@ body {
     grid-column: 1;
     position: fixed; 
     width: 20%;
-    height: 150vh; 
-    
   }
   
   main {
@@ -111,19 +110,20 @@ body {
           aside {
             background-color: #000080;
             display: grid;
-            max-height: 800px;
+            min-height: 800px;
+            height: auto;
             justify-content: center;
             align-items: center;
             padding: 10px; 
             position: static;
-            width: 100%;
+            width: auto;
             grid-template-columns: 60%;
             grid-column: 1;
           } 
           main {
             background-color: #000090;
             height: auto;
-            width: 97%;
+            width: auto;
             display: grid;
             border-radius: 25px;
             padding: 15px;
@@ -183,7 +183,7 @@ body {
       background-color: #000080;
       display: grid;
       max-width: 30%;
-      max-height: 800px;
+      height: auto;
       justify-content: center;
       align-items: center;
       padding: 10px;
